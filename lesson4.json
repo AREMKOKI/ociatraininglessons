@@ -1,0 +1,103 @@
+{
+    "id": 3,
+    "title": "Revelation: Scripture & Tradition — Part II",
+    "subtitle": "Biblical Interpretation, Criticism, and Structure",
+    "requirements": "Understand Catholic principles of biblical interpretation, literary and historical criticism, the formation of the Gospels, and the structure of the Lectionary.",
+    "reading": "Divino afflante spiritu (Pope Pius XII, 1943) | Dei Verbum | Luke 4:16–21",
+    "videoUrl": "https://www.youtube.com/embed/5qap5aO4i9A",
+    "introductory_principles": [
+        "Each of us is called to be hearers and doers of the word.",
+        "God reveals Himself in Sacred Scripture; we must learn about the Bible to discern His voice.",
+        "God did not dictate word-for-word; He used human writers, cultural idioms, and literary devices of their era.",
+        "Catholics do not practice literalist/fundamentalist interpretation, but recognize the Bible as the inspired, non-dictated Word of God guided by the Church."
+    ],
+    "sections": [
+        {
+            "id": 1,
+            "title": "1. Catholic Modern Biblical Scholarship",
+            "content": "Modern Catholic biblical scholarship was formally opened on September 30, 1943, by Pope Pius XII's encyclical 'Divino afflante spiritu' (Inspired by the Holy Spirit).",
+            "methods": [
+                {
+                    "method": "Literary Criticism",
+                    "description": "Studies language, cultural idioms, past/present meanings, and literary attention-getters to enter the story world.",
+                    "example": "In the Parable of the Prodigal Son, asking for an inheritance early was culturally equivalent to wishing the father dead—an attention-getting device designed to shock listeners."
+                },
+                {
+                    "method": "Historical Criticism",
+                    "description": "Examines Scripture within the context of the history, culture, customs, and religious/economic realities of the original audience.",
+                    "example": "First-century Palestinian elders never ran. The father running to his rebellious son shocked hearers with an unprecedented demonstration of mercy."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "2. Nature of Biblical History & Inspiration",
+            "content": "In 1948, the Pontifical Biblical Commission stated that biblical history is salvation history rather than modern chronological news reporting.",
+            "key_points": [
+                "Biblical authors were concerned with theology—who God is and His relationship with humanity.",
+                "Events were passed down via oral tradition for generations before being written down.",
+                "Scripture is historically accurate in its core saving events (e.g., Christ's Passion, Death, and Resurrection) while utilizing figurative story forms for theological points (e.g., Jonah, Genesis creation accounts)."
+            ]
+        },
+        {
+            "id": 3,
+            "title": "3. Understanding the Gospels",
+            "content": "The Gospels record how communities remembered Jesus and taught new generations through guided memory and faith.",
+            "details": [
+                {
+                    "topic": "Synoptic Gospels",
+                    "explanation": "Matthew, Mark, and Luke mean 'seeing with the same eyes.' Mark was written first; Matthew and Luke shared Mark and a lost source called 'Q' (Quelle)."
+                },
+                {
+                    "topic": "Translation & Exegesis",
+                    "explanation": "Jesus spoke Aramaic, but Gospels were written in Greek. Exegesis ('drawing out of the text') acknowledges that language and cultural context shape expression."
+                },
+                {
+                    "topic": "Multi-Faceted View of Jesus",
+                    "explanation": "As scripture scholar Raymond Brown noted, the four Gospels are like viewing a fine diamond from different angles; no single Gospel exhausts the mystery of Christ."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "4. Catholic vs. Protestant Bibles & The Lectionary",
+            "content": "Differences in biblical canons and how Scripture is encountered in Catholic liturgy.",
+            "details": [
+                {
+                    "topic": "Deuterocanonical Books",
+                    "explanation": "Catholic Bibles contain 46 Old Testament books (including Tobit, Judith, 1 & 2 Maccabees, Wisdom, Sirach, Baruch, and parts of Esther & Daniel). Protestant Bibles contain 39 Old Testament books, treating the additional 7 as Apocrypha."
+                },
+                {
+                    "topic": "The Liturgical Lectionary",
+                    "explanation": "Catholics encounter Scripture in liturgy via a 3-year cycle (Year A: Matthew, Year B: Mark, Year C: Luke, with John interspersed). Over 3 years, the full scope of salvation history is proclaimed."
+                }
+            ]
+        }
+    ],
+    "review_questions": [
+        {
+            "question": "What two forms of biblical criticism were explored?",
+            "answer": "Literary criticism and historical criticism."
+        },
+        {
+            "question": "Do Catholics consider the Bible as exact chronological history?",
+            "answer": "False (it is salvation history focusing on theology and divine relationship)."
+        },
+        {
+            "question": "Do Catholics consider the Bible to be historical?",
+            "answer": "True."
+        },
+        {
+            "question": "Is the Bible the inspired Word of God rather than word-for-word dictation?",
+            "answer": "True."
+        },
+        {
+            "question": "Do Catholics interpret everything in the Bible literally?",
+            "answer": "False."
+        }
+    ],
+    "closing_prayer": {
+        "scripture_reference": "Luke 4:16–21",
+        "text": "Heavenly Father, Jesus demonstrated to all believers the power of the word. We ask that you instill in us a deep love for the sacred Scriptures. May your Word be a lamp to light our way. May it illuminate our journey of life. May it be the means for us to nurture an ongoing intimate relationship with you. May your Word forever be etched on our hearts. We ask this through Christ our Lord, Amen."
+    }
+}

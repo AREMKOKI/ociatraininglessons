@@ -1,0 +1,62 @@
+{
+  "id": 3,
+  "title": "Scripture and Tradition (Divine Revelation)",
+  "requirements": "Explore how God reveals Himself through both Sacred Scripture and Sacred Tradition, the role of the Magisterium, and how the biblical canon was formed.",
+  "reading": "CCC 80–100, 101–141 | Dei Verbum #9 | Scripture: 2 Thessalonians 2:15, 2 Timothy 3:16–17",
+  "videoUrl": "https://www.youtube.com/embed/5qap5aO4i9A",
+  "sections": [
+    {
+      "id": 1,
+      "title": "1. Jesus as God's Ultimate Revelation",
+      "content": "Before discussing Scripture and Tradition, we must look at the ultimate, once-and-for-all way God revealed Himself: through Jesus Christ.",
+      "points": [
+        "Jesus is the fullness of God’s Revelation to the world, revealing the Father through His life, death, and resurrection.",
+        "Jesus taught His apostles and disciples and empowered them to preach salvation to the entire world, continuing His mission through apostolic succession."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "2. Sacred Tradition (Capital 'T')",
+      "content": "Catholic teaching distinguishes between small 't' traditions (like dinner prayers) and capital 'T' Tradition, which is the living transmission of the Gospel message in the Church.",
+      "points": [
+        "It consists of the oral preaching of the Apostles handed down through an unbroken line of bishops (apostolic succession).",
+        "Catholics view Scripture and Tradition as one single, sacred deposit of the Word of God, equally vital to divine revelation."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "3. The Magisterium and Authenticity",
+      "content": "The task of authentically interpreting the Word of God has been entrusted to the living teaching office of the Church alone (the Magisterium).",
+      "criteria": [
+        { "criterion": "Ecumenicity", "description": "Was the teaching believed everywhere with universal acceptance?" },
+        { "criterion": "Antiquity", "description": "Can the teaching be traced back to our earliest apostolic origins?" },
+        { "criterion": "Consent", "description": "Has this teaching been embraced by the faithful throughout the ages?" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "4. The Biblical Canon",
+      "content": "The canon refers to the defined collection of 46 Old Testament and 27 New Testament books accepted as authoritative within the Church.",
+      "points": [
+        "The Church did not arbitrarily create the canon; rather, it formally recognized and preserved the texts that already possessed universal authority, antiquity, and apostolic consensus."
+      ]
+    }
+  ],
+  "catechism_reading": {
+    "title": "Catechism (CCC) Reading",
+    "description": "To dive deeper into tonight's topic, read these sections in your Catechism this week:",
+    "readings": [
+      { "citation": "CCC 80–87", "summary": "The Tradition of the Apostles and the Magisterium." },
+      { "citation": "CCC 101–108", "summary": "Christ as the unique Word of Sacred Scripture." },
+      { "citation": "CCC 120–130", "summary": "The canon of Scripture." }
+    ]
+  },
+  "questions": [
+    "How does the Catholic understanding of Scripture and Tradition working together differ from looking at the Bible alone?",
+    "Why is it significant that Jesus entrusted His revelation to a living community of apostles and disciples rather than just writing a book?"
+  ],
+  "scriptural_foundations": [
+    { "reference": "2 Thessalonians 2:15", "title": "Holding to Tradition", "summary": "St. Paul encourages believers to stand firm and hold fast to the traditions taught whether by word of mouth or by letter." },
+    { "reference": "Dei Verbum #9", "title": "Unity of Scripture and Tradition", "summary": "Both sacred Tradition and sacred Scripture are to be accepted and venerated with the same sense of loyalty and reverence." }
+  ]
+}

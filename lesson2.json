@@ -1,0 +1,128 @@
+{
+    "id": 2,
+    "title": "OCIA Session II: The Trinity",
+    "requirements": "Explore the mystery of the Holy Trinity, the distinction between nature and person, Scripture and Tradition, and the early Church ecumenical councils.",
+    "reading": "CCC 232–267, 1702, 2205 | Scripture: Matthew 28:19, John 10:30, John 14:26",
+    "videoUrl": "",
+    "sections": [
+        {
+            "id": 1,
+            "title": "1. Structure in Nature",
+            "content": "Everything in creation has structure or parts, ranging from galaxies and biology down to molecules, atoms, and quarks. Science studies the physical structure of the material world, while theology studies the structure of the spiritual realm. Christianity is unique in teaching that there is structure in God, and it is triadic.",
+            "points": [
+                "Everything has structure or parts.",
+                "A point of light in the sky is due to a Galaxy: magnify it and see stars, then planets.",
+                "Biology: animal-organ-tissue-cell.",
+                "Molecule-atom-nucleon (e.g. proton)-quark.",
+                "Science studies structure of the material world and is always surprised at its nature.",
+                "Theology studies structure of the spiritual realm — Christianity alone says it is triadic."
+            ]
+        },
+        {
+            "id": 2,
+            "title": "2. Structure in God; The Trinity",
+            "content": "At the highest level, God is one entity. At the next level, God is three persons: Father, Son, and Holy Spirit. Christ has two natures (divine and human), while the Father and Holy Spirit possess one divine nature.",
+            "points": [
+                "Highest level: God is one entity.",
+                "Next level: God is three persons: Father, Son, and Holy Spirit.",
+                "Next level: Christ has two natures — divine and human.",
+                "Father and Holy Spirit have one nature — divine.",
+                "Nature answers the question 'what?', person answers the question 'who?'.",
+                "God is creator of the world; Jesus is redeemer of people in the world. We try our best to clarify this mystery in our minds."
+            ]
+        },
+        {
+            "id": 3,
+            "title": "3. Persons of the Trinity",
+            "content": "The Trinity consists of the Father (Creator), Son (Redeemer), and Holy Spirit (Sanctifier). All three persons share the same divine nature, are co-eternal and co-equal, and form a divine community.",
+            "points": [
+                "Father, Son, and Holy Spirit — Creator, Redeemer, Sanctifier.",
+                "Three persons in one God — all having the same divine nature.",
+                "All three persons are co-eternal and co-equal to each other.",
+                "The Holy Spirit is often explained as the eternal, abiding love between the Father and the Son.",
+                "These three Persons form a community."
+            ]
+        },
+        {
+            "id": 4,
+            "title": "4. Scripture and Tradition",
+            "content": "Our beliefs come from two sources: Scripture and Tradition. Because the doctrine of the Trinity is not explicitly clear in early texts, the Fathers of the Church and early Ecumenical Councils addressed heresies to define orthodox faith.",
+            "aspects": [
+                { "aspect": "Arius", "description": "Claimed that the Son is similar to (homoiousios) the Father in nature." },
+                { "aspect": "Nestorius", "description": "Claimed that there are two persons in Christ, so Mary is not the mother of God." },
+                { "aspect": "Monophysites", "description": "Accepted only one nature in Christ." }
+            ],
+            "points": [
+                "Nicaea: The Son has the same (homo-ousios) nature as the Father.",
+                "Ephesus: Christ is one person, and via Theotokos, Mary can truly be called the mother of God.",
+                "Chalcedon: There are two natures in Christ: divine and human."
+            ]
+        },
+        {
+            "id": 5,
+            "title": "5. Scripture Support",
+            "content": "Scripture provides foundational support for the Trinity through Jesus's words, baptismal formulas, and relationship with the Father.",
+            "points": [
+                "We baptize in the Name of the Father, and of the Son, and of the Holy Spirit (Mt 28:19).",
+                "Jesus said: 'I and the Father are One.'",
+                "Jesus said: 'When I leave I will send the Paraclete, the Holy Spirit.'",
+                "'As the Father sent Me so I also send you.'",
+                "Jesus used the word Abba for the Father, an Aramaic term of endearment ('Daddy').",
+                "'He who sees Me has seen the Father' and 'The Father is in Me and I am in the Father.'",
+                "A voice from heaven at Jesus' Baptism said 'This is my beloved Son.'"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "6. Nature and Person",
+            "content": "Distinguishing between nature ('what') and person ('who') helps clarify the inner life and actions of the Trinity.",
+            "points": [
+                "Divine Nature: eternal — all powerful — immutable — all holy — creator.",
+                "Human Nature: mortal — weak.",
+                "Person: distinctions among members (1. Father, 2. Son, 3. Holy Spirit).",
+                "Father creates, Son redeems, Holy Spirit sanctifies (missions/appropriations, though all three act together)."
+            ]
+        },
+        {
+            "id": 7,
+            "title": "7. Relationships",
+            "content": "The Trinity is a community of persons defined by both external relationships with creation and dynamic internal relationships within the Godhead.",
+            "points": [
+                "External relationships of God with the world, and in particular with human beings (recounted in both Old and New Testaments: Abraham, Moses, Prophets, Paul).",
+                "Dynamic internal relationships constitute the essence of the Trinity ('dynamic' means continual movement and life).",
+                "The Son proceeds from the Father; the Holy Spirit proceeds from both the Father and the Son.",
+                "All three are eternal and always existed; the Holy Spirit is the eternal, abiding Love between the Father and the Son."
+            ]
+        },
+        {
+            "id": 8,
+            "title": "8. Jesus Christ",
+            "content": "All Three Persons share a divine nature, but Jesus Christ, the second person of the Trinity, uniquely took on a human nature, making Him true God and true Man.",
+            "points": [
+                "All Three Persons have a divine nature.",
+                "Jesus, the second person of the Trinity, is the only person with a human nature.",
+                "Jesus is both true God and true Man.",
+                "Mary is truly the Mother of God.",
+                "These facts were decided by early Church Councils: Nicaea 325, Constantinople 381, Ephesus 431, and Chalcedon 451 AD. The Creeds make these beliefs very clear."
+            ]
+        }
+    ],
+    "catechism_reading": {
+        "title": "Catechism (CCC) Reading",
+        "description": "To dive deeper into tonight's topic, read these sections in your Catechism this week:",
+        "readings": [
+            { "citation": "CCC 232–267", "summary": "The mystery of the Holy Trinity." },
+            { "citation": "CCC 1702", "summary": "Created in the image of God." },
+            { "citation": "CCC 2205", "summary": "The family as a reflection of the Trinity." }
+        ]
+    },
+    "questions": [
+        "How does understanding the difference between 'nature' (what) and 'person' (who) help clarify your mental image of the Trinity?",
+        "In what ways does viewing the Trinity as an eternal community of love change how you view human relationships and community?"
+    ],
+    "scriptural_foundations": [
+        { "reference": "Matthew 28:19", "title": "The Great Commission", "summary": "Baptizing them in the name of the Father, and of the Son, and of the Holy Spirit." },
+        { "reference": "John 10:30", "title": "Unity with the Father", "summary": "Jesus declares: 'I and the Father are one.'" },
+        { "reference": "John 14:26", "title": "The Advocate", "summary": "The Paraclete, the Holy Spirit, whom the Father will send in my name." }
+    ]
+}

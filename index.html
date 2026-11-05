@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCIA Training Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header with Teacher Button on the Right -->
+        <header class="main-header">
+            <div>
+                <h1>✝️ OCIA Training Dashboard</h1>
+                <p style="opacity: 0.95; font-size: 0.95rem;">Your guide through the Order of Christian Initiation of Adults</p>
+            </div>
+            <button id="teacher-btn" class="teacher-btn">Teacher Dashboard</button>
+        </header>
+
+        <main>
+            <!-- Main Dashboard View -->
+            <div id="dashboard-view" class="view active">
+                <h2>Training Lessons</h2>
+                <div id="lesson-list" class="lessons-grid">Loading lessons...</div>
+            </div>
+
+            <!-- Lesson Detail View -->
+            <div id="lesson-detail-view" class="view">
+                <button id="back-btn" class="btn-secondary">Back to Dashboard</button>
+                <div class="lesson-detail-card">
+                    <h2 id="lesson-title"></h2>
+                    
+                    <div class="lesson-section">
+                        <h3>Requirements</h3>
+                        <p id="lesson-requirements"></p>
+                        <!-- Call Lesson Button placed directly below requirements -->
+                        <button id="call-lesson-btn" class="btn-primary" style="margin-top: 15px;">Call Lesson</button>
+                    </div>
+
+                    <div class="lesson-section">
+                        <h3>Reading & References</h3>
+                        <p id="lesson-reading"></p>
+                    </div>
+
+                    <div class="lesson-section">
+                        <h3>Video Presentation</h3>
+                        <div id="lesson-video-container"></div>
+                    </div>
+                </div>
+
+                <div class="lesson-detail-card" style="margin-top: 20px;">
+                    <div class="lesson-section" style="margin-bottom: 0;">
+                        <h3>Reflection Questions</h3>
+                        <form id="submission-form">
+                            <div class="question-group">
+                                <label for="student-name">Your Name:</label>
+                                <input type="text" id="student-name" required placeholder="Enter your full name">
+                            </div>
+
+                            <div class="question-group">
+                                <label id="q1-text"></label>
+                                <textarea id="answer1" rows="3" required placeholder="Type your answer here..."></textarea>
+                            </div>
+                            
+                            <div class="question-group">
+                                <label id="q2-text"></label>
+                                <textarea id="answer2" rows="3" required placeholder="Type your answer here..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn-primary">Submit Responses</button>
+                        </form>
+                        <p id="form-status"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teacher Submissions View -->
+            <div id="teacher-view" class="view">
+                <button id="back-to-dash-btn" class="btn-secondary">← Back to Dashboard</button>
+                <h2>Teacher Portal: Student Submissions</h2>
+                <div id="submissions-list" style="margin-top: 20px;">
+                    <p>Loading submissions...</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Teacher Passcode Modal -->
+    <div id="teacher-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-card">
+            <h3 style="margin-top: 0; color: var(--primary); margin-bottom: 10px;">Teacher Access</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 15px;">Enter passcode to view student submissions:</p>
+            
+            <div class="question-group">
+                <input type="password" id="passcode-input" placeholder="Enter code...">
+            </div>
+            
+            <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px;">
+                <button id="submit-passcode-btn" class="btn-primary">Submit</button>
+                <button id="cancel-passcode-btn" class="btn-secondary" style="margin-bottom: 0;">Cancel</button>
+            </div>
+
+            <p id="passcode-error" style="color: #ef4444; font-size: 0.85rem; margin-top: 10px; display: none;"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

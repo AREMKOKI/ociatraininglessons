@@ -1,0 +1,69 @@
+{
+    "id": 1,
+    "title": "OCIA Session I: The Journey of Faith",
+    "requirements": "Explore the four stages of OCIA, the universal search for God, Divine Revelation, and the meaning of faith.",
+    "reading": "CCC 27–30, 31–38, 142–156 | Scripture: Acts 17:24-28, Psalm 42:1-2",
+    "videoUrl": "",
+    "sections": [
+        {
+            "id": 1,
+            "title": "1. What is OCIA?",
+            "content": "The Order of Christian Initiation of Adults is not a mere academic course, but a gradual spiritual journey into full communion with the Catholic Church. It is structured in four distinct stages:",
+            "stages": [
+                { "stage": "Inquiry", "description": "Asking questions and initial exploration." },
+                { "stage": "Catechumenate", "description": "Deeper study, spiritual growth, and formation." },
+                { "stage": "Purification & Enlightenment", "description": "Intense spiritual reflection during Lent." },
+                { "stage": "Mystagogy", "description": "Deepening your understanding of the sacraments after Easter." }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "2. The Universal Search",
+            "content": "Every human being is born with a \"God-shaped vacuum\" in their heart. We have an built-in, unquenchable desire for perfect truth, beauty, goodness, and love.",
+            "points": [
+                { "author": "St. Augustine", "quote": "You have made us for yourself, O Lord, and our heart is restless until it rests in you." },
+                "We can look at the order of creation and the voice of our moral conscience to reasonably deduce that God exists.",
+                "However, human reason alone cannot give us an intimate, saving relationship with God. For that, we need Him to reveal Himself."
+            ]
+        },
+        {
+            "id": 3,
+            "title": "3. God’s Response: Divine Revelation",
+            "content": "God did not stay hidden or silent. Out of pure love, He stepped into human history to show us Who He is:",
+            "points": [
+                "He made Covenants with Abraham, Moses, and the people of Israel.",
+                "He spoke fully and definitively by becoming man in Jesus Christ.",
+                "Today, this revelation reaches us through the Word of God, preserved in Sacred Scripture (the Bible) and Sacred Tradition (the living teaching of the Church)."
+            ]
+        },
+        {
+            "id": 4,
+            "title": "4. What is Faith?",
+            "content": "Faith is our personal response to God’s invitation. It is a supernatural gift from God that requires our free human cooperation.",
+            "aspects": [
+                { "aspect": "Faith is Trust", "description": "Surrendering yourself completely to a loving relationship with God." },
+                { "aspect": "Faith is Truth", "description": "Accepting the objective truths God has revealed (found in the Creed)." },
+                { "aspect": "Faith and Reason", "description": "They are two wings on which the human spirit rises. The Catholic Church teaches they never contradict; instead, they complement and elevate one another." }
+            ]
+        }
+    ],
+    "catechism_reading": {
+        "title": "Catechism (CCC) Reading",
+        "description": "To dive deeper into tonight's topic, read these sections in your Catechism this week:",
+        "readings": [
+            { "citation": "CCC 27–30", "summary": "Our built-in desire for God." },
+            { "citation": "CCC 31–38", "summary": "Knowing God through reason and creation." },
+            { "citation": "CCC 142–156", "summary": "The true meaning and act of faith." }
+        ]
+    },
+    "questions": [
+        "Where in your life have you felt the \"restlessness\" that St. Augustine talks about?",
+        "Looking back at your life's path, how do you see God gently drawing you toward this training?"
+    ],
+    "scriptural_foundations": [
+        { "reference": "Acts 17:24–28", "title": "Paul’s Speech at the Areopagus", "summary": "Explains how God created humans to seek Him, grope for Him, and find Him, noting that \"in Him we live and move and have our being.\"" },
+        { "reference": "Psalm 42:1–2", "title": "Longing for God", "summary": "The classic, beautiful cry of the soul searching for its Creator: \"As the deer longs for streams of water, so my soul longs for you, O God.\"" },
+        { "reference": "Hebrews 11:1–6", "title": "The Definition of Faith", "summary": "Explains that \"faith is the assurance of things hoped for, the conviction of things not seen\" and details why faith pleases God." },
+        { "reference": "Jeremiah 29:11–13", "title": "Seeking with the Heart", "summary": "A comforting reminder of God’s active pursuit of us: \"When you look for me, you will find me. Yes, when you seek me with all your heart.\"" }
+    ]
+}
