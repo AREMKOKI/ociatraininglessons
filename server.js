@@ -3,12 +3,20 @@ const app = express();
 const path = require('path');
 const fs = require('fs');
 
+// Middleware
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public')));
 
-// 1. Dashboard API: Serves the master overview list from lessons.json
+// 1. Serve static files (index.html, styles.css, app.js, etc.) from the root directory
+app.use(express.static(__dirname));
+
+// 2. Default route loads index.html at the root URL
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+// 3. Dashboard API: Serves lessons.json from the root directory
 app.get('/api/lessons', (req, res) => {
-    const masterFile = path.join(__dirname, 'data', 'lessons.json');
+    const masterFile = path.join(__dirname, 'lessons.json');
     
     if (fs.existsSync(masterFile)) {
         try {
@@ -25,10 +33,10 @@ app.get('/api/lessons', (req, res) => {
     }
 });
 
-// 2. Call Lesson API: Fetches the deep, granular individual file (e.g., lesson1.json, lesson3.json) when clicked
+// 4. Call Lesson API: Fetches individual files (e.g., lesson1.json) from the root directory
 app.get('/api/lesson/:id', (req, res) => {
     const lessonId = req.params.id;
-    const filePath = path.join(__dirname, 'data', `lesson${lessonId}.json`);
+    const filePath = path.join(__dirname, `lesson${lessonId}.json`);
 
     if (fs.existsSync(filePath)) {
         try {
@@ -44,12 +52,12 @@ app.get('/api/lesson/:id', (req, res) => {
     }
 });
 
-// Student Submissions API
+// 5. Student Submissions API (saves and reads submissions.json in the root directory)
 app.post('/api/submit-lesson', (req, res) => {
     const submission = req.body;
     submission.date = new Date().toLocaleDateString();
     
-    const submissionsFile = path.join(__dirname, 'data', 'submissions.json');
+    const submissionsFile = path.join(__dirname, 'submissions.json');
     
     let submissions = [];
     if (fs.existsSync(submissionsFile)) {
@@ -70,9 +78,9 @@ app.post('/api/submit-lesson', (req, res) => {
     }
 });
 
-// Get Submissions API for Teacher View
+// 6. Get Submissions API for Teacher View
 app.get('/api/submissions', (req, res) => {
-    const submissionsFile = path.join(__dirname, 'data', 'submissions.json');
+    const submissionsFile = path.join(__dirname, 'submissions.json');
     if (fs.existsSync(submissionsFile)) {
         try {
             const submissions = JSON.parse(fs.readFileSync(submissionsFile, 'utf8'));
@@ -84,7 +92,7 @@ app.get('/api/submissions', (req, res) => {
     res.json([]);
 });
 
-// Teacher Auth API
+// 7. Teacher Auth API
 app.post('/api/teacher-auth', (req, res) => {
     const { passcode } = req.body;
     if (passcode === '1234') {
@@ -94,6 +102,7 @@ app.post('/api/teacher-auth', (req, res) => {
     }
 });
 
+// Use Render's dynamic port or fallback to 3002 locally
 const PORT = process.env.PORT || 3002;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
