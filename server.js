@@ -4,9 +4,16 @@ const path = require('path');
 const fs = require('fs');
 
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public')));
 
-// 1. Dashboard API: Serves the master overview list from lessons.json
+// 1. Serve static files (index.html, styles.css, app.js, etc.) from the root directory
+app.use(express.static(__dirname));
+
+// 2. Default route loads index.html at the root URL
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+// 3. Dashboard API: Serves the master overview list from lessons.json
 app.get('/api/lessons', (req, res) => {
     const masterFile = path.join(__dirname, 'data', 'lessons.json');
     
@@ -25,7 +32,7 @@ app.get('/api/lessons', (req, res) => {
     }
 });
 
-// 2. Call Lesson API: Fetches the deep, granular individual file (e.g., lesson1.json, lesson3.json) when clicked
+// 4. Call Lesson API: Fetches individual file (e.g., lesson1.json)
 app.get('/api/lesson/:id', (req, res) => {
     const lessonId = req.params.id;
     const filePath = path.join(__dirname, 'data', `lesson${lessonId}.json`);
