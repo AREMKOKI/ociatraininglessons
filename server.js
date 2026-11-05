@@ -3,8 +3,6 @@ const app = express();
 const path = require('path');
 const fs = require('fs');
 
-const PORT = 3002;
-
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -96,6 +94,7 @@ app.post('/api/teacher-auth', (req, res) => {
     }
 });
 
+const PORT = process.env.PORT || 3002;
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
